@@ -132,6 +132,7 @@ namespace CalculadoraCSharp
                 label1.Text = label1.Text + txtValor.Text + "=";
                 txtValor.Text = Convert.ToString(a / Convert.ToInt32(txtValor.Text));
             }
+            validar = false;
         }
     }
 }
